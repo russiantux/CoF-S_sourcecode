@@ -78,6 +78,10 @@ public:
 	void					ShowControlPanells( bool show );
 
 	virtual CBaseCombatWeapon *GetOwningWeapon( void );
+
+	//ironsights
+	void		CalcIronsights(Vector &pos, QAngle &ang);
+	//ir
 	
 	virtual CBaseEntity	*GetOwnerViaInterface( void ) { return GetOwner(); }
 

@@ -79,6 +79,13 @@ public:
 	bool					bLoadedHudElements;
 
 // SHARED
+	//ironsights _
+	Vector					vecIronsightPosOffset;
+	QAngle					angIronsightAngOffset;
+	float					flIronsightFOVOffset;
+	//ir
+
+
 	char					szClassName[MAX_WEAPON_STRING];
 	char					szPrintName[MAX_WEAPON_STRING];			// Name for showing in HUD, etc.
 
